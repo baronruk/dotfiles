@@ -1,0 +1,397 @@
+add_newline = false
+
+[aws]
+symbol = 'aws '
+style = "bold #ffb86c"
+format = '\[[$symbol($profile)(\($region\))(\[$duration\])]($style)\]'
+disabled = true
+
+[battery]
+disabled = true
+
+[bun]
+symbol = 'bun '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[buf]
+symbol = 'buf '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[c]
+symbol = 'C '
+format = '\[[$symbol($version(-$name))]($style)\]'
+disabled = true
+
+[character]
+success_symbol = '[>](bold #8be9fd)'
+error_symbol = '[x](bold #ff5555)'
+vimcmd_symbol = '[<](bold #8be9fd)'
+
+[cmake]
+symbol = 'cmake '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[cmd_duration]
+style = "bold #f1fa8c"
+format = '\[[duration $duration]($style)\]'
+disabled = true
+
+[cobol]
+symbol = 'cobol '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[conda]
+symbol = 'conda '
+format = '\[[$symbol$environment]($style)\]'
+disabled = true
+
+[crystal]
+symbol = 'cr '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[daml]
+symbol = 'daml '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[dart]
+symbol = 'dart '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[deno]
+symbol = 'deno '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+
+[docker_context]
+symbol = 'docker '
+format = '\[[$symbol$context]($style)\]'
+disabled = true
+
+[dotnet]
+symbol = '.NET '
+format = '\[[$symbol($version)(🎯 $tfm)]($style)\]'
+disabled = true
+
+[directory]
+read_only = " "
+style = "bold #50fa7b"
+
+[elixir]
+symbol = 'exs '
+format = '\[[$symbol($version \(OTP $otp_version\))]($style)\]'
+disabled = true
+
+[elm]
+symbol = 'elm '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[erlang]
+symbol = 'erlang '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[gcloud]
+symbol = 'gcloud '
+format = '\[[$symbol$account(@$domain)(\($region\))]($style)\]'
+disabled = true
+
+[git_branch]
+symbol = 'git '
+style = "bold #ff79c6"
+format = '\[[$symbol$branch]($style)\]'
+
+[git_commit]
+tag_symbol = ' tag '
+
+[git_status]
+style = "bold #ff5555"
+ahead = '>'
+behind = '<'
+diverged = '<>'
+renamed = 'r'
+deleted = 'x'
+format = '\[[$all_status$ahead_behind]($style)\]'
+
+[golang]
+symbol = 'go '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[guix_shell]
+symbol = 'guix '
+format = '\[[$symbol]($style)\]'
+disabled = true
+
+[haskell]
+symbol = 'hs '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[haxe]
+symbol = 'hx '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[helm]
+symbol = 'helm '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[hg_branch]
+symbol = 'hg '
+format = '\[[$symbol$branch]($style)\]'
+
+[hostname]
+style = "bold #bd93f9"
+ssh_symbol = "ssh "
+ssh_only = true
+format = '\[[$ssh_symbol$hostname]($style) \]'
+
+[java]
+symbol = 'java '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[julia]
+symbol = 'jl '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[kotlin]
+symbol = 'kt '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[kubernetes]
+symbol = 'kube '
+format = '\[[$symbol$context( \($namespace\))]($style)\]'
+disabled = true
+
+[line_break]
+disabled = false
+
+[localip]
+disabled = true
+
+[lua]
+symbol = 'lua '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[memory_usage]
+symbol = 'memory '
+format = '\[$symbol[$ram( | $swap)]($style)\]'
+disabled = true
+[meson]
+symbol = 'meson '
+format = '\[[$symbol$project]($style)\]'
+disabled = true
+
+[nim]
+symbol = 'nim '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[nix_shell]
+symbol = 'nix '
+format = '\[[$symbol$state( \($name\))]($style)\]'
+disabled = true
+
+[nodejs]
+symbol = 'nodejs '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[ocaml]
+symbol = 'ml '
+format = '\[[$symbol($version)(\($switch_indicator$switch_name\))]($style)\]'
+disabled = true
+
+[opa]
+symbol = 'opa '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[openstack]
+symbol = 'openstack '
+format = '\[[$symbol$cloud(\($project\))]($style)\]'
+disabled = true
+
+[os]
+format = '\[[$symbol]($style)\]'
+disabled = true
+
+[os.symbols]
+Alpine = 'alp '
+Amazon = 'amz '
+Android = 'andr '
+Arch = 'rch '
+CentOS = 'cent '
+Debian = 'deb '
+DragonFly = 'dfbsd '
+Emscripten = 'emsc '
+EndeavourOS = 'ndev '
+Fedora = 'fed '
+FreeBSD = 'fbsd '
+Garuda = 'garu '
+Gentoo = 'gent '
+HardenedBSD = 'hbsd '
+Illumos = 'lum '
+Linux = 'lnx '
+Macos = 'mac '
+Manjaro = 'mjo '
+Mariner = 'mrn '
+MidnightBSD = 'mid '
+Mint = 'mint '
+NetBSD = 'nbsd '
+NixOS = 'nix '
+OpenBSD = 'obsd '
+openSUSE = 'osuse '
+OracleLinux = 'orac '
+Pop = 'pop '
+Raspbian = 'rasp '
+Redhat = 'rhl '
+RedHatEnterprise = 'rhel '
+Redox = 'redox '
+Solus = 'sol '
+SUSE = 'suse '
+Ubuntu = 'ubnt '
+Unknown = 'unk '
+Windows = 'win '
+
+[package]
+symbol = 'pkg '
+format = '\[[$symbol$version]($style)\]'
+disabled = true
+
+[perl]
+symbol = 'pl '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[php]
+symbol = 'php '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[pulumi]
+symbol = 'pulumi '
+format = '\[[$symbol$stack]($style)\]'
+disabled = true
+
+[purescript]
+symbol = 'purs '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[python]
+symbol = 'py '
+format = '\[[${symbol}${pyenv_prefix}(${version})(\($virtualenv\))]($style)\]'
+# Don't trigger for files with the py extension
+detect_extensions = []
+
+[rlang]
+symbol = 'R '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[raku]
+symbol = 'raku '
+format = '\[[$symbol($version-$vm_version)]($style)\]'
+disabled = true
+
+[red]
+symbol = 'red '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[ruby]
+symbol = 'rb '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[rust]
+symbol = 'rs '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[scala]
+symbol = 'scala '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[shell]
+disabled = true
+
+[shlvl]
+symbol = 'shlvl '
+format = '\[[$symbol$shlvl]($style) \]'
+disabled = true
+
+[singularity]
+symbol = 'singularity '
+format = '\[[$symbol\[$env\]]($style) \]'
+disabled = true
+
+[spack]
+symbol = 'spack '
+format = '\[[$symbol$environment]($style)\]'
+disabled = true
+
+[status]
+disabled = true
+
+[sudo]
+symbol = 'sudo'
+format = '\[[$symbol]($style)\]'
+disabled = false
+
+[swift]
+symbol = 'swift '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[terraform]
+symbol = 'terraform '
+format = '\[[$symbol$workspace]($style)\]'
+disabled = true
+
+[time]
+format = '\[[$time]($style)\]'
+disabled = true
+
+[username]
+style_user = "bold #8be9fd"
+format = '\[[$user]($style)\]'
+show_always = false
+disabled = false
+
+[vagrant]
+symbol = 'vangrant '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[vcsh]
+symbol = 'vcsh '
+format = '\[[$symbol$repo]($style)\]'
+disabled = true
+
+[vlang]
+symbol = 'V '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+
+[zig]
+symbol = 'zig '
+format = '\[[$symbol($version)]($style)\]'
+disabled = true
+

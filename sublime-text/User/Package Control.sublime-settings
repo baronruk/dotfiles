@@ -1,0 +1,31 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"ColorHelper",
+		"Djaneiro",
+		"Dockerfile Syntax Highlighting",
+		"Emmet",
+		"Generic Config",
+		"GitGutter",
+		"Handlebars",
+		"HTML (C#)",
+		"INI",
+		"LESS",
+		"LoremIpsum",
+		"MarkdownEditing",
+		"MJML-syntax",
+		"Package Control",
+		"Pretty JSON",
+		"RestructuredText Improved",
+		"SublimeLinter",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-shellcheck",
+		"TOML",
+	],
+}

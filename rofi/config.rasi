@@ -1,0 +1,9 @@
+configuration {
+	modi: "window,run,drun,ssh";
+	display-drun: "Applications";
+	drun-display-format: "{icon} {name}";
+	show-icons: true;
+}
+
+@theme "~/.config/rofi/dracula-theme.rasi"
+

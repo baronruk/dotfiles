@@ -1,0 +1,13 @@
+# tmuxp session config files
+.tmuxp/
+
+# sublime text user cache directories
+sublime-text/User/**/
+
+# zsh
+zsh/.zsh/plugins/
+zsh/.zcompdump
+zsh/.zsh_history
+
+# bash
+bash/.bash_history

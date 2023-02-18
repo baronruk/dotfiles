@@ -1,0 +1,6 @@
+// GitGutter Settings - User
+{
+	"git_binary": {
+		"linux": "/usr/bin/git"
+	}
+}

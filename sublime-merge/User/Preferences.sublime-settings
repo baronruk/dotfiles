@@ -1,0 +1,24 @@
+// Settings in here override those in "Default/Preferences.sublime-settings",
+// and are overridden in turn by syntax-specific settings.
+{
+	"diff_style": "side-by-side",
+	"hardware_acceleration": "none",
+	"side_bar_layout": "tabs",
+	"theme": "Dracula (Alucard).sublime-theme",
+	"gtk_client_side_window_decorations": false,
+	"font_face": "UbuntuMono Nerd Font Mono",
+	"font_size": 10,
+	"update_check": false,
+	"render_commit_dialog_message_at_top": true,
+	"hide_menu": false,
+	"ignore_diff_white_space": false,
+	"image_diff_style": "side-by-side",
+	"added_words":
+	[
+		"formsets",
+		"kwargs",
+		"gitingore",
+		"pytest",
+	],
+	"translate_tabs_to_spaces": false,
+}
