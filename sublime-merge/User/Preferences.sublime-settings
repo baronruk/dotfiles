@@ -2,7 +2,7 @@
 // and are overridden in turn by syntax-specific settings.
 {
 	"diff_style": "side-by-side",
-	"hardware_acceleration": "none",
+	"hardware_acceleration": "opengl",
 	"side_bar_layout": "tabs",
 	"theme": "Dracula (Alucard).sublime-theme",
 	"gtk_client_side_window_decorations": false,
@@ -19,6 +19,8 @@
 		"kwargs",
 		"gitingore",
 		"pytest",
+		"Gulpfile",
+		"ckeditor",
 	],
 	"translate_tabs_to_spaces": false,
 }
