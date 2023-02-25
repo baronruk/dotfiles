@@ -19,6 +19,8 @@
 		"kwargs",
 		"gitingore",
 		"pytest",
+		"Gulpfile",
+		"ckeditor",
 	],
 	"translate_tabs_to_spaces": false,
 }
